@@ -3,7 +3,7 @@
   "main": "index.js",
   "version": "0.0.1",
   "description": "Easily submit gists from your atom editor.",
-  "activationEvents": ["proton-gist:toggle"],
+  "activationEvents": ["proton-gist:public", "proton-gist:private"],
   "repository": "https://github.com/ankr/proton-gist",
   "license": "MIT",
   "engines": {
