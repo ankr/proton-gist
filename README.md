@@ -7,6 +7,6 @@ Also it uses the name of the current file (*untitled* for non-saved files) as th
 
 #### Shortcuts
 
-`ctrl+alt+o` will create a **private** gist.
+`ctrl+alt+o` will create a **public** gist.
 
 `ctrl+alt+p` will create a **private** gist.
