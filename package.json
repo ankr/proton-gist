@@ -1,6 +1,6 @@
 {
   "name": "proton-gist",
-  "main": "index.js",
+  "main": "index.coffee",
   "version": "0.0.1",
   "description": "Easily submit gists from your atom editor.",
   "activationEvents": ["proton-gist:public", "proton-gist:private"],
