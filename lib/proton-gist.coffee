@@ -12,7 +12,16 @@ class ProtonView extends View
 
   destroy: ->
     @detach()
+  ###
+  Create a gist with the content of the current file
+  Uses title name of current window as the filename in gist.
 
+  If `protonGist.githubToken` is provided, in the configurations file, the gist
+  will be created on that users account.
+
+  @param boolean isPublic If TRUE the created gist will be public
+  @return void
+  ###
   create: (isPublic) ->
     request = new XMLHttpRequest()
     response = null
